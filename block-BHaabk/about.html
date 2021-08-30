@@ -1,0 +1,82 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+ 
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Flexbox model block-3</title>
+     <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/7680eba2e0.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+         <header class="header">
+             <div class="brand">
+                 <a href=""><i class="fab fa-github"></i>Github</a>
+            </div>
+               <nav class="navigation">
+                <a href="index.html">Home</a>
+                 <a href="service.html">Service</a>
+                 <a href="contact.html">Contact</a>
+               </nav>
+        </header>
+        <main>
+            <section class="article">
+                <div class="article-heading">
+                    <h2>About billing for Codespaces</h2>
+                    <p>View pricing and see how to manage Codespaces billing for your organization. Developers are building the future on GitHub every day, explore their stories, celebrate their accomplishments, and find inspiration for your own work. To manage billing for Codespaces for an organization, you must be an organization owner or a billing manager.</p>
+                </div>
+                <div class="article-image">
+                    <img src="assets/media/article-image.png" alt="">
+                </div>
+            </section>
+            <h2>Gallery</h2>
+            <section class="gallery">
+                <div class=image-gallery>
+                    <div class=image-box>
+                        <img src="assets/media/image1.jpeg" alt="">
+                    </div>
+                    <div class=image-box>
+                        <img src="assets/media/image2.jpeg" alt="">
+                    </div>
+                    <div class=image-box>
+                        <img src="assets/media/image3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class=image-gallery>
+                    <div class=image-box>
+                        <img src="assets/media/image4.jpeg" alt="">
+                    </div>
+                    <div class=image-box>
+                        <img src="assets/media/image5.jpeg" alt="">
+                    </div>
+                    <div class=image-box>
+                        <img src="assets/media/image6.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <small>&copy 2021 GitHub, Inc.</small>
+            <nav class="footer-link">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+               <a href=""> <i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+           </nav>
+        </footer>
+      </body>
+ </html>
