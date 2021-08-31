@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    padding: 0 32px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    background-color: rgb(15, 15, 75);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.profile {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+ h2 {
+     align-self: center;
+     font-size: 25px;
+ }
+ .main {
+     border-radius: 3%;
+ }
+ .aside {
+     background: rgb(130, 130, 155);
+     width: 25%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 85vh;
+     align-items: start;
+     border-radius: 2%;
+     margin: 3%;
+ }
+ .navigation {
+     width: 70%;
+     height: vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+    margin: 0 auto;  
+ }
+ .navigation a {
+     display: inline-block;
+    color: rgb(20, 20, 82); 
+    font-size: 18px;
+    font-weight: bold;  
+    padding: 10px; 
+    width: 100%;
+ }
+ .navigation img {
+     margin-right: 5%;
+ }
+ .navigation .article-icon {
+     border: 1px solid orange;
+     color: orange;
+ }
+ button {
+     margin-bottom: 4%;
+     font-size: 20px;
+     padding: 3%;
+     font-weight: bold;
+     color: rgb(20, 20, 82);
+     text-align: left;
+ }
+ .logout-button {
+     border-radius: 5%;
+     border: white;
+     align-self: center;
+     width: 70%;
+     color: rgb(20, 20, 82);
+ }
+ .logout-button a {
+    color: rgb(20, 20, 82);
+ }
+ .section {
+     width: 70%;
+     display: flex;
+     flex-direction: column;
+     color: rgb(20, 20, 82);
+     font-weight: bold;
+     margin-left: 30px;
+     margin: 3%;
+     display: flex;
+     align-items: flex-start;
+ }
+ h1 {
+     font-size: 35px;
+     margin: 1.5% auto;
+ }
+ .section button {
+     background-color: green;
+     width: 20%;
+     border-radius: 5%;
+     border:green
+ }
+
+
+ /* footer */
+ footer {
+     background-color: rgb(20, 20, 82);
+     display: flex;
+     justify-content: space-between;
+     padding: 2%;
+
+ }
+ small {
+     color: white;
+     font-size: 20px;
+ }
+ .footer-link {
+     font-size: 40px;
+     color: white;
+     width: 10%;
+ }
+ .footer-link i {
+     margin: 0 3%;
+ }
